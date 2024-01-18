@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.1] - 18-1-2024
+
+- Added `anim` / `motion-canvas-anim` snippit.
+
 ## [1.0.0] - 18-1-2024
 
 - Added `scene` / `motion-canvas-scene` snippit.

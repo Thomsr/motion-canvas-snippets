@@ -7,6 +7,7 @@ This vscode-extension provides several useful snippets to improve your Motion Ca
 | Snippet  | Motion Canvas prefix Snippet | Extends to                                 |
 | -------- | ---------------------------- | ------------------------------------------ |
 | `scene`  | `motion-canvas-scene`        | Inserts a basic new scene template         |
+| `anim`   | `motion-canvas-anim`         | `$PROP($VALUE, $TIME)`                     |
 | `8`      | `motion-canvas-yield`        | `yield*`                                   |
 | `getset` | `motion-canvas-getset`       | Basic getset                               |
 | `ref`    | `motion-canvas-ref`          | `const $NAME = createRef<$TYPE>();`        |
@@ -17,6 +18,10 @@ This vscode-extension provides several useful snippets to improve your Motion Ca
 | `yseq`   | `motion-canvas-sequence`     | `yield* sequence($VALUE,);`                |
 
 ## Release Notes
+
+## [1.0.1] - 18-1-2024
+
+- Added `anim` / `motion-canvas-anim` snippit.
 
 ## [1.0.0] - 18-1-2024
 
