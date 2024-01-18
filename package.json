@@ -3,6 +3,7 @@
   "displayName": "Motion Canvas Snippets",
   "description": "",
   "version": "1.0.0",
+  "publisher": "Thomsr",
   "repository": {
     "type": "git",
     "url": "https://github.com/Thomsr/motion-canvas-snippets"
