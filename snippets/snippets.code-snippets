@@ -21,6 +21,12 @@
     "description": "Create a new Motion Canvas Scene",
     "isFileTemplate": true
   },
+  "Animate": {
+    "prefix": ["anim", "motion-canvas-anim"],
+    "body": [
+      "${1:prop}(${2:value}, ${3:time})$0"
+    ]
+  }
   "yield*": {
     "prefix": ["8", "motion-canvas-yield"],
     "body": ["yield*"]
