@@ -19,6 +19,11 @@ This vscode-extension provides several useful snippets to improve your Motion Ca
 
 ## Release Notes
 
+## [1.0.2] - 18-1-2024
+
+- Added the Motion Canvas Icon.
+- Minor fixes
+
 ## [1.0.1] - 18-1-2024
 
 - Added `anim` / `motion-canvas-anim` snippit.

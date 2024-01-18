@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.2] - 18-1-2024
+
+- Added the Motion Canvas Icon.
+- Minor fixes
+
 ## [1.0.1] - 18-1-2024
 
 - Added `anim` / `motion-canvas-anim` snippit.
