@@ -1,9 +1,13 @@
 # Change Log
 
-All notable changes to the "motion-canvas-snippets" extension will be documented in this file.
+## [1.0.0] - 18-1-2024
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- Added `scene` / `motion-canvas-scene` snippit.
+- Added `8` / `motion-canvas-yield` snippit.
+- Added `getset` / `motion-canvas-getset` snippit.
+- Added `ref` / `motion-canvas-ref` snippit.
+- Added `reft` / `motion-canvas-ref-type` snippit.
+- Added `sig` / `motion-canvas-signal` snippit.
+- Added `wait` / `motion-canvas-waitUntil` snippit.
+- Added `yall` / `motion-canvas-all` snippit.
+- Added `yseq` / `motion-canvas-sequence` snippit.
