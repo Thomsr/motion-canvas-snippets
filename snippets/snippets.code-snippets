@@ -1,0 +1,61 @@
+{
+  "Motion Canvas New Scene": {
+    "prefix": ["scene", "motion-canvas-scene"],
+    "body": [
+      "import {Circle, makeScene2D} from '@motion-canvas/2d';",
+      "import {createRef, waitFor, waitUntil} from '@motion-canvas/core';",
+      "",
+      "export default makeScene2D(function* (view) {",
+      " const circle = createRef<Circle>();",
+      "",
+      " view.add(",
+      "   <Circle ref={circle} width={320} height={320} fill={'lightseagreen'} />,",
+      " );",
+      "",
+      " yield* waitUntil('circle');",
+      " yield* circle().scale(2, 2).to(1, 2);",
+      " ",
+      " yield* waitFor(5);",
+      "});"
+    ],
+    "description": "Create a new Motion Canvas Scene",
+    "isFileTemplate": true
+  },
+  "yield*": {
+    "prefix": ["8", "motion-canvas-yield"],
+    "body": ["yield*"]
+  },
+  "Get Set": {
+    "prefix": ["getset", "motion-canvas-getset"],
+    "body": [
+      "@initial(${1:default})",
+      "@signal()",
+      "public declare readonly ${2:prop}: SimpleSignal<${3:type}, this>;",
+      "$0"
+    ]
+  },
+  "Motion Canvas Reference": {
+    "prefix": ["ref", "motion-canvas-ref"],
+    "body": ["const ${1:name} = createRef<$0>();"]
+  },
+  "Motion Canvas Reference typeof": {
+    "prefix": ["reft", "motion-canvas-ref-type"],
+    "body": ["const ${1:name} = createRef<typeof $0>();"]
+  },
+  "createSignal()": {
+    "prefix": ["sig", "motion-canvas-signal"],
+    "body": ["const ${1:name} = createSignal($0);"]
+  },
+  "waitUntil": {
+    "prefix": ["wait", "motion-canvas-waitUntil"],
+    "body": ["yield* waitUntil('$0');"]
+  },
+  "yield* all": {
+    "prefix": ["yall", "motion-canvas-all"],
+    "body": ["yield* all(", " $0,", ");"]
+  },
+  "yield* sequence": {
+    "prefix": ["yseq", "motion-canvas-sequence"],
+    "body": ["yield* sequence(", " $0,", ");"]
+  }
+}
