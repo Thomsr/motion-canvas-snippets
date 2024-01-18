@@ -23,10 +23,8 @@
   },
   "Animate": {
     "prefix": ["anim", "motion-canvas-anim"],
-    "body": [
-      "${1:prop}(${2:value}, ${3:time})$0"
-    ]
-  }
+    "body": ["${1:prop}(${2:value}, ${3:time})$0"]
+  },
   "yield*": {
     "prefix": ["8", "motion-canvas-yield"],
     "body": ["yield*"]
@@ -50,7 +48,7 @@
   },
   "createSignal()": {
     "prefix": ["sig", "motion-canvas-signal"],
-    "body": ["const ${1:name} = createSignal($0);"]
+    "body": ["const ${1:name} = createSignal(${2:0});$0"]
   },
   "waitUntil": {
     "prefix": ["wait", "motion-canvas-waitUntil"],
