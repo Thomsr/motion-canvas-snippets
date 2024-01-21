@@ -55,7 +55,7 @@
     "body": ["yield* waitUntil('$0');"]
   },
   "yield* all": {
-    "prefix": ["yall", "motion-canvas-all"],
+    "prefix": ["yall", "motion-canvas-yall"],
     "body": ["yield* all(", " $0,", ");"]
   },
   "yield* sequence": {
