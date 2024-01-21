@@ -60,6 +60,10 @@
   },
   "yield* sequence": {
     "prefix": ["yseq", "motion-canvas-sequence"],
-    "body": ["yield* sequence(", " $0,", ");"]
+    "body": ["yield* sequence(", "  $0,", ");"]
+  },
+  "Put selected text in all()": {
+    "prefix": ["all", "motion-canvas-all"],
+    "body": ["all(", "\t${TM_SELECTED_TEXT:$1},", "\t$0", ");"]
   }
 }
