@@ -4,20 +4,26 @@
 
 This vscode-extension provides several useful snippets to improve your Motion Canvas workflow.
 
-| Snippet  | Motion Canvas prefix Snippet | Extends to                                 |
-| -------- | ---------------------------- | ------------------------------------------ |
-| `scene`  | `motion-canvas-scene`        | Inserts a basic new scene template         |
-| `anim`   | `motion-canvas-anim`         | `$PROP($VALUE, $TIME)`                     |
-| `8`      | `motion-canvas-yield`        | `yield*`                                   |
-| `getset` | `motion-canvas-getset`       | Basic getset                               |
-| `ref`    | `motion-canvas-ref`          | `const $NAME = createRef<$TYPE>();`        |
-| `reft`   | `motion-canvas-ref-type`     | `const $NAME = createRef<typeof $TYPE>();` |
-| `sig`    | `motion-canvas-signal`       | `const $NAME = createSignal($VALUE);`      |
-| `wait`   | `motion-canvas-waitUntil`    | `yield* waitUntil('$VALUE');`              |
-| `yall`   | `motion-canvas-all`          | `yield* all($VALUE,);`                     |
-| `yseq`   | `motion-canvas-sequence`     | `yield* sequence($VALUE,);`                |
+| Snippet  | Motion Canvas prefix Snippet | Extends to                                                  |
+| -------- | ---------------------------- | ----------------------------------------------------------- |
+| `scene`  | `motion-canvas-scene`        | Inserts a basic new scene template                          |
+| `anim`   | `motion-canvas-anim`         | `$PROP($VALUE, $TIME)`                                      |
+| `8`      | `motion-canvas-yield`        | `yield*`                                                    |
+| `getset` | `motion-canvas-getset`       | Basic getset                                                |
+| `ref`    | `motion-canvas-ref`          | `const $NAME = createRef<$TYPE>();`                         |
+| `reft`   | `motion-canvas-ref-type`     | `const $NAME = createRef<typeof $TYPE>();`                  |
+| `sig`    | `motion-canvas-signal`       | `const $NAME = createSignal($VALUE);`                       |
+| `wait`   | `motion-canvas-waitUntil`    | `yield* waitUntil('$VALUE');`                               |
+| `yall`   | `motion-canvas-yall`         | `yield* all($VALUE,);`                                      |
+| `all`    | `motion-canvas-all`          | Wraps the selected text inside an `all( $SELECTED_TEXT, );` |
+| `yseq`   | `motion-canvas-sequence`     | `yield* sequence($VALUE,);`                                 |
 
 ## Release Notes
+
+## [1.1.0] - 21-1-2024
+
+- Added `all` / `motion-canvas-all` snippet.
+- Changed old `motion-canvas-all` to `motion-canvas-yall`.
 
 ## [1.0.2] - 18-1-2024
 
